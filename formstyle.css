@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.right{
+    position: absolute;
+    width: 360px;
+    left: 60%;
+    height: 580px;
+    top: calc(50% - 580px/2);
+    background: hsl(204, 89%, 89%, 0.3);
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.8), 0 6px 20px 0 rgba(255, 255, 255, 0.8);
+}
+.title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 145px;
+    align-items: center;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    color: aliceblue;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    margin-top: -50px;
+}
+input[type="email"],input[type="password"]{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 15px;
+    color: #cee2f8;
+    padding: 20px 10px 20px 5px;
+    border: 2px solid #56c0ee;
+    width: 280px;
+    height: 45px;
+    margin: 15px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    text-align: center;
+    overflow: hidden;
+    font-family: "Scheherazade New", serif;
+}
+.icon{
+    position: absolute;
+    padding: 24px 32px;
+    height: 75px;
+    width: 90px;
+
+    /*border: 2px solid rgb(0, 0, 69);*/
+    /*border-radius: 10%;
+    background-color: rgb(0, 0, 69);*/
+    
+}
+::placeholder{
+    color: #cee2f8;
+    font-size: 18px;
+}
+input[type="checkbox"]{
+    vertical-align: middle;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    height: 18px;
+    width: 18px;
+}
+.keepme{
+    margin: 20px;
+    color: #cee2f8;
+    font-family: 'Lucida Sans Unicode', serif;
+    font-weight: bold;
+}
+button{
+    width: 260px;
+    height: 45px;
+    left: 1273px;
+    top: 780px;
+    margin: 10px;
+    font-family: "Sansation", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    background: rgba(30, 32, 102, 0.89);
+    border-radius: 25px;
+}
+.link{
+    text-align: center;
+    display: block;
+    margin: 25px;
+    color: #cee2f8;
+    font-family: 'Lucida Sans Unicode', serif;
+    
+    text-decoration: none;
+}
+@media only screen and (max-width: 500px) {
+    .main-container {
+      background: linear-gradient(138.56deg, #011327 50.44%, #0455B0 100.5%);
+    }
+  
+    .right {
+      left: calc(68% - 500px / 2);
+    }
+  }
